@@ -19,7 +19,7 @@ public class AccelerometerInput : MonoBehaviour
         //dir2.z = Input.acceleration.x;
          dir2.y = Input.acceleration.x;
 
-        transform.Rotate(dir1);
+        //transform.Rotate(dir1); à calibrer
         transform.Rotate(dir2);
     }
 }
