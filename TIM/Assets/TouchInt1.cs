@@ -2,7 +2,7 @@
 using System.Collections;
 
 
-public class TouchTest : MonoBehaviour
+public class TouchInt1 : MonoBehaviour
 {
     void Update()
     {

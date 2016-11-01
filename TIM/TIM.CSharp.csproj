@@ -68,8 +68,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AccelerometerInput.cs" />
-    <Compile Include="Assets\TouchTest.cs" />
+    <Compile Include="Assets\AccelerometerInt1.cs" />
+    <Compile Include="Assets\TouchInt1.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

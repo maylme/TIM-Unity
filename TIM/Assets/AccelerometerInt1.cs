@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class AccelerometerInput : MonoBehaviour
+public class AccelerometerInt1 : MonoBehaviour
 {
     void Update()
     {
@@ -17,9 +17,9 @@ public class AccelerometerInput : MonoBehaviour
         MonoBehaviour.print(Input.acceleration.y);
         dir1.x = Input.acceleration.y;
         //dir2.z = Input.acceleration.x;
-         dir2.y = Input.acceleration.x * 3;
+         dir2.y = Input.acceleration.x * 4;
 
-     //   transform.Rotate(dir1); //à calibrer
-        transform.Rotate(dir2);
+        //transform.Rotate(dir1); //à calibrer
+            transform.Rotate(dir2);
     }
 }
