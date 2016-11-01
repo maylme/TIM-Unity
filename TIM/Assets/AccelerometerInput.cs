@@ -14,12 +14,12 @@ public class AccelerometerInput : MonoBehaviour
         Vector3 dir1 = Vector3.zero;
         Vector3 dir2 = Vector3.zero;
 
-
+        MonoBehaviour.print(Input.acceleration.y);
         dir1.x = Input.acceleration.y;
         //dir2.z = Input.acceleration.x;
-         dir2.y = Input.acceleration.x;
+         dir2.y = Input.acceleration.x * 3;
 
-        //transform.Rotate(dir1); à calibrer
+     //   transform.Rotate(dir1); //à calibrer
         transform.Rotate(dir2);
     }
 }
