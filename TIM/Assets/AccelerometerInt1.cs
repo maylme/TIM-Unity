@@ -11,7 +11,7 @@ public class AccelerometerInt1 : MonoBehaviour
 
         //MonoBehaviour.print(Input.acceleration.y);
         dir1.x = Input.acceleration.y;
-        dir2.y = Input.acceleration.x * 4;
+        dir2.y = Input.acceleration.x * 9;
 
         //transform.Rotate(dir1); //à calibrer
           transform.Rotate(dir2);
